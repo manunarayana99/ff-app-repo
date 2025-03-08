@@ -1,9 +1,8 @@
-a="python"
-b="z"
-if b in a:
-    print("available")
+import getpass
+actual_word=getpass.getpass()
+guess_word=input("enter your word")
+if actual_word==guess_word:
+    print("mathched")
 else:
-    print("not available")
-print("execution successful")
-print("manasa")
-print("innomatic")
+    print("unmatched")
+    
